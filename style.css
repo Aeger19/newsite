@@ -107,14 +107,14 @@ body {
 }
 
 .overlay {
-    width: 300px; /* Суреттің өлшемін реттеу */
-    height: auto;
     position: absolute;
-    left: 20px; /* Сол жақта тұруы үшін */
-    top: 120px;
-    z-index: 2;
+    top: 180px; /* Қызыл белгіге сай биіктігі */
+    left: 60%; /* Горизонтальды орналасуы */
+    transform: translateX(-50%); /* Дәл ортасына жылжыту */
+    width: 300px; /* Өлшемін реттеу */
+    height: auto;
+    z-index: 2; /* Басқа элементтердің үстіне қою */
 }
-
 .text-box {
     position: absolute;
     right: 20px; /* Мәтінді оң жаққа қою */
