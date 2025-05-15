@@ -172,4 +172,20 @@ body {
         object-fit: cover;
         text-align: center;
     }
+    .container {
+        flex-direction: column; /* Элементтерді тік қатарға қою */
+        align-items: center; /* Барлығын ортасына туралау */
+        gap: 15px; /* Ара қашықтықты реттеу */
+    }
+
+    .image-box {
+        width: 80%; /* Суреттің енін экранға бейімдеу */
+    }
+
+    .text-box {
+        width: 90%;
+        text-align: center; /* Мәтінді ортасына туралау */
+        font-size: 18px; /* Шрифт көлемін кішірейту */
+        padding: 10px;
+    }
 }
