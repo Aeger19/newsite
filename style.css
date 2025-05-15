@@ -172,7 +172,9 @@ body {
         object-fit: cover;
         text-align: center;
     }
-  
+    .image-box {
+        width: 80%; /* Суреттің енін экранға бейімдеу */
+    }
 
      .container {
         flex-direction: column; /* Элементтерді вертикалды түрде қою */
