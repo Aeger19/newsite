@@ -105,15 +105,29 @@ body {
     width: 100%;
     height: auto;
 }
+
 .overlay {
-    position: absolute;
-    top: 120px; /* Қажетті биіктікті реттеу */
-    left: 50%; /* Ортасына қою */
-    transform: translateX(-50%); /* Дәл ортасына жылжыту */
-    width: 300px; /* Өлшемін реттеу */
+    width: 300px; /* Суреттің өлшемін реттеу */
     height: auto;
-    z-index: 2; /* Басқа элементтердің үстіне қою */
+    position: absolute;
+    left: 20px; /* Сол жақта тұруы үшін */
+    top: 120px;
+    z-index: 2;
 }
+
+.text-box {
+    position: absolute;
+    right: 20px; /* Мәтінді оң жаққа қою */
+    top: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background: rgba(255, 255, 255, 0.8); /* Оқылымдылық үшін фон */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 3; /* Суреттің үстінде тұруы үшін */
+}
+
 
 @media screen and (max-width: 768px) {
     .header {
