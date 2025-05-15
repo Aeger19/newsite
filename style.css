@@ -58,7 +58,7 @@ body {
 
 .intro img {
     position: sticky;
-    width: 100%;
+    width: 104%;
     height: 445px;
     object-fit: cover;
 }
@@ -118,15 +118,15 @@ body {
 }
 .text-box {
     position: absolute;
-    right: 20px; /* Мәтінді оң жаққа қою */
-    top: 130px;
+    right: -609px;
+    top: 78px;
     font-size: 24px;
     font-weight: bold;
-    color: black;
-    background: rgba(255, 255, 255, 0.8); /* Оқылымдылық үшін фон */
+    /* color: black; */
+    /* background: rgba(255, 255, 255, 0.8); */
     padding: 10px;
     border-radius: 5px;
-    z-index: 3; /* Суреттің үстінде тұруы үшін */
+    z-index: 3;
 }
 
 
