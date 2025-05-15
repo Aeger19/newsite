@@ -99,7 +99,16 @@ body {
     flex: 1; /* Растягиваем текст */
     text-align: left; /* Выравниваем текст по левому краю */
 }
-
+.container {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 50px; /* Бірінші суреттің орналасуын реттеу */
+    left: 100px;
+    width: 200px;
+    height: auto;
+}
 
 @media screen and (max-width: 768px) {
     .header {
