@@ -107,8 +107,8 @@ body {
 }
 .overlay {
      position: absolute;
-    top: 120px; /* Настройка местоположения */
-    left: 180px;
+    top: -85px; /* Настройка местоположения */
+    left: -213px;
     width: 220px;
     height: auto;
     z-index: 2; /* Над фоном */
