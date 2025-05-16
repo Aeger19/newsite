@@ -97,12 +97,6 @@ body {
     align-items: center; /* Центрируем элементы в ряд */
     background-color: white;
 }
-.companies {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
 
 .logo {
     width: 100px;
