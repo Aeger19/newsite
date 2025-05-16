@@ -8,3 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+
+document.querySelectorAll('.menu-item').forEach(item => {
+    item.addEventListener('mouseover', () => {
+        item.style.boxShadow = '0px 0px 10px rgba(255, 255, 0, 0.8)'; /* Жарық эффекті */
+    });
+    item.addEventListener('mouseout', () => {
+        item.style.boxShadow = 'none'; /* Наведение аяқталған соң эффект өшеді */
+    });
+});
