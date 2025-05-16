@@ -48,6 +48,10 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+.menu a:hover {
+    background-color: yellow; /* Наведение кезінде түс өзгереді */
+    box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.8); /* Жарық эффекті */
+}
 
 .intro {
     position: relative;
@@ -135,10 +139,6 @@ body {
     line-height: 1.5;
 }
 
-.menu-item:hover {
-    background-color: yellow; /* Наведение кезінде фон өзгереді */
-    color: black; /* Мәтіннің түсі өзгереді */
-}
 
 
 @media screen and (max-width: 768px) {
