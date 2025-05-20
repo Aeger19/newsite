@@ -183,7 +183,7 @@ body {
         width: 80%; /* Суреттің енін экранға бейімдеу */
     }
 
-     .container {
+   .container {
         flex-direction: column; /* Элементтерді вертикалды түрде қою */
         align-items: center;
     }
@@ -194,7 +194,7 @@ body {
         padding: 15px;
         display:flex;
     }
-    .h1 br {
+    .h2 br {
         display: none;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
