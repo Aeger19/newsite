@@ -187,17 +187,22 @@ body {
         flex-direction: column; /* Элементтерді вертикалды түрде қою */
         align-items: center;
     }
-.text-box {
+    .text-box {
     margin-top: 30px; /* Мәтінді төмен түсіру */
     text-align: center;
     font-size: 18px;
     padding: 15px;
     display:flex;
     }
-    .h2 br {
-    display: none;
+     .text-box h2 br{
+    margin-top: 30px; /* Мәтінді төмен түсіру */
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    display:flex;
     }
-    .h2 {
+    
+    .text-box.h2 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
 }
