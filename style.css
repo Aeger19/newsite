@@ -194,7 +194,7 @@ body {
         padding: 15px;
         display:flex;
     }
-     h1 br {
+    .h1 br {
         display: none;
     }
 }
